@@ -1,0 +1,142 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 168 272)
+	(text "Controlador_Sequencializador" (rect 5 0 185 14)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 240 26 252)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLR" (rect 0 0 24 14)(font "Intel Clear" (font_size 8)))
+		(text "CLR" (rect 21 27 45 41)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 24 14)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 43 45 57)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "In[3..0]" (rect 0 0 41 14)(font "Intel Clear" (font_size 8)))
+		(text "In[3..0]" (rect 21 59 62 73)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "CLK_OUT" (rect 0 0 57 14)(font "Intel Clear" (font_size 8)))
+		(text "CLK_OUT" (rect 74 27 131 41)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(port
+		(pt 152 48)
+		(output)
+		(text "CP" (rect 0 0 17 14)(font "Intel Clear" (font_size 8)))
+		(text "CP" (rect 114 43 131 57)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 48)(pt 136 48))
+	)
+	(port
+		(pt 152 64)
+		(output)
+		(text "EP" (rect 0 0 17 14)(font "Intel Clear" (font_size 8)))
+		(text "EP" (rect 114 59 131 73)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 64)(pt 136 64))
+	)
+	(port
+		(pt 152 80)
+		(output)
+		(text "~LM" (rect 0 0 27 14)(font "Intel Clear" (font_size 8)))
+		(text "~LM" (rect 104 75 131 89)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 80)(pt 136 80))
+	)
+	(port
+		(pt 152 96)
+		(output)
+		(text "~CE" (rect 0 0 24 14)(font "Intel Clear" (font_size 8)))
+		(text "~CE" (rect 107 91 131 105)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 96)(pt 136 96))
+	)
+	(port
+		(pt 152 112)
+		(output)
+		(text "~LI" (rect 0 0 18 14)(font "Intel Clear" (font_size 8)))
+		(text "~LI" (rect 113 107 131 121)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 112)(pt 136 112))
+	)
+	(port
+		(pt 152 128)
+		(output)
+		(text "~EI" (rect 0 0 18 14)(font "Intel Clear" (font_size 8)))
+		(text "~EI" (rect 113 123 131 137)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 128)(pt 136 128))
+	)
+	(port
+		(pt 152 144)
+		(output)
+		(text "~LA" (rect 0 0 24 14)(font "Intel Clear" (font_size 8)))
+		(text "~LA" (rect 107 139 131 153)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 144)(pt 136 144))
+	)
+	(port
+		(pt 152 160)
+		(output)
+		(text "EA" (rect 0 0 17 14)(font "Intel Clear" (font_size 8)))
+		(text "EA" (rect 114 155 131 169)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 160)(pt 136 160))
+	)
+	(port
+		(pt 152 176)
+		(output)
+		(text "SU" (rect 0 0 17 14)(font "Intel Clear" (font_size 8)))
+		(text "SU" (rect 114 171 131 185)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 176)(pt 136 176))
+	)
+	(port
+		(pt 152 192)
+		(output)
+		(text "EU" (rect 0 0 17 14)(font "Intel Clear" (font_size 8)))
+		(text "EU" (rect 114 187 131 201)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 192)(pt 136 192))
+	)
+	(port
+		(pt 152 208)
+		(output)
+		(text "~LB" (rect 0 0 24 14)(font "Intel Clear" (font_size 8)))
+		(text "~LB" (rect 107 203 131 217)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 208)(pt 136 208))
+	)
+	(port
+		(pt 152 224)
+		(output)
+		(text "~LO" (rect 0 0 25 14)(font "Intel Clear" (font_size 8)))
+		(text "~LO" (rect 106 219 131 233)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 224)(pt 136 224))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 240))
+	)
+)

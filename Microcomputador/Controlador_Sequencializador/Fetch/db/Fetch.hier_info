@@ -1,0 +1,19 @@
+|Fetch
+CP <= T2.DB_MAX_OUTPUT_PORT_TYPE
+T2 => CP.DATAIN
+EP <= T1.DB_MAX_OUTPUT_PORT_TYPE
+T1 => EP.DATAIN
+T1 => inst3.IN0
+~LM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+~CE <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+T3 => inst4.IN0
+~LI <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+~EI <= <VCC>
+~LA <= <VCC>
+EA <= <GND>
+SU <= <GND>
+EU <= <GND>
+~LB <= <VCC>
+~LO <= <VCC>
+
+

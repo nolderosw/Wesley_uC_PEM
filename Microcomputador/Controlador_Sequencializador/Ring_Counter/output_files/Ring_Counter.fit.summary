@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Nov 23 17:53:22 2016
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : Ring_Counter
+Top-level Entity Name : Ring_Counter
+Family : Cyclone IV E
+Device : EP4CE6E22A7
+Timing Models : Final
+Total logic elements : 0 / 6,272 ( 0 % )
+    Total combinational functions : 0 / 6,272 ( 0 % )
+    Dedicated logic registers : 0 / 6,272 ( 0 % )
+Total registers : 0
+Total pins : 8 / 92 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

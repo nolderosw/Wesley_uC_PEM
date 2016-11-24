@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, /home/wesley150/quartus/Wesley_Uc_PEM/Microcomputador/Controlador_Sequencializador/Ring_Counter/Ring_Counter.bdf
+source_file = 1, /home/wesley150/quartus/Wesley_Uc_PEM/Microcomputador/Controlador_Sequencializador/Ring_Counter/db/Ring_Counter.cbx.xml
+design_name = Ring_Counter
+instance = comp, \T1~output , T1~output, Ring_Counter, 1
+instance = comp, \T2~output , T2~output, Ring_Counter, 1
+instance = comp, \T3~output , T3~output, Ring_Counter, 1
+instance = comp, \T4~output , T4~output, Ring_Counter, 1
+instance = comp, \T5~output , T5~output, Ring_Counter, 1
+instance = comp, \T6~output , T6~output, Ring_Counter, 1
+instance = comp, \CLK~input , CLK~input, Ring_Counter, 1
+instance = comp, \CLR~input , CLR~input, Ring_Counter, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
